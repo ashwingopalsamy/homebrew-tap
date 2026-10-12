@@ -1,14 +1,16 @@
 # homebrew-tap
 
-Homebrew tap for [Atomberg Console](https://github.com/ashwingopalsamy/atomberg-console).
+Homebrew tap for the menu bar apps of [Ashwin Gopalsamy](https://ashwingopalsamy.in).
 
-```sh
-brew install --cask ashwingopalsamy/tap/atomberg-console
-```
+| App | Install |
+|---|---|
+| [Atomberg Console](https://github.com/ashwingopalsamy/atomberg-console) | `brew install --cask ashwingopalsamy/tap/atomberg-console` |
+| [Dell Monitor Console](https://github.com/ashwingopalsamy/dell-monitor-console) | `brew install --cask ashwingopalsamy/tap/dell-monitor-console` |
 
-The cask is generated from each release by `scripts/cask.sh` in the app repository. The DMG's SHA-256 is the one
-published next to it on the release, and the release carries a build attestation:
+Each cask is generated from a release by `scripts/cask.sh` in the app's repository. The DMG's SHA-256 is the one
+published next to it on the release, and every release carries a build attestation:
 
 ```sh
 gh attestation verify Atomberg-Console-*.dmg -R ashwingopalsamy/atomberg-console
+gh attestation verify Dell-Monitor-Console-*.dmg -R ashwingopalsamy/dell-monitor-console
 ```
