@@ -1,6 +1,6 @@
 cask "dell-monitor-console" do
-  version "1.1.1"
-  sha256 "89ca674e48bc0dd8d79ed1d12001257a50ac1c218741682814bab9bd485e588c"
+  version "1.1.2"
+  sha256 "72124f389f6402774f62a7ca6d6759871c080eb7992efe0e6f666bb9daa3c6d7"
 
   url "https://github.com/ashwingopalsamy/dell-monitor-console/releases/download/v#{version}/Dell-Monitor-Console-#{version}.dmg"
   name "Dell Monitor Console"
